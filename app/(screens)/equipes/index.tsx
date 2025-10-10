@@ -7,7 +7,7 @@ import { Modal, Text, TouchableOpacity, View } from "react-native"
 
 export default function Equipes() {
 
-        const { setEquipe } = useStepProgressContext();
+    const { setEquipe } = useStepProgressContext();
 
     const route = useRouter()
     
