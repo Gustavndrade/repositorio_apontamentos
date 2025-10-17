@@ -20,9 +20,9 @@ const StepProgressContext = createContext({} as StepProgressContextProps);
 
 function StepProgressProvider({ children }: { children: ReactNode }) {
 
-    const [frota, setFrota] = useState("")
-    const [insumo, setInsumo] = useState("")
-    const [equipe, setEquipe] = useState("")
+    const [frota, setFrota] = useState("moto")
+    const [insumo, setInsumo] = useState("fertilizantes")
+    const [equipe, setEquipe] = useState("Motoristas")
     const [activeFrota, setActiveFrota] = useState(false)
     const [activeInsumos, setActiveInsumos] = useState<boolean>(false);
     const [activeEquipe, setActiveEquipe] = useState<boolean>(false);

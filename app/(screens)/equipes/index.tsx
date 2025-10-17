@@ -77,7 +77,7 @@ export default function Equipes() {
                         <Text
                             className="text-center"
                         >
-                            Você escolheu {selectedEquipe}, este é o insumo certo?
+                            Você escolheu {selectedEquipe}, essa é a equipe certa?
                         </Text>
                         <View
                             className="flex flex-row gap-6"

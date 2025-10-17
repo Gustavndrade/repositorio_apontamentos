@@ -80,7 +80,7 @@ export default function Insumos() {
                         <Text
                             className="text-center"
                         >
-                            Você escolheu {selectedInsumo}, essa é sua equipe?
+                            Você escolheu {selectedInsumo}, esse é o insumo correto?
                         </Text>
                         <View
                             className="flex flex-row gap-6"

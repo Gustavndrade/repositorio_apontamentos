@@ -75,18 +75,20 @@ export default function Initial() {
                         Iniciar
                     </ButtonText>
                 </Button>
-
-                <TouchableOpacity
-                    onPress={() => {
-                        clear();
-                    }}
-                >
-                    <Text>Limpar escolhas</Text>
-                </TouchableOpacity>
-                <View>
+                
+                    <Button
+                        onPress={() => {
+                            clear();
+                        }}
+                    >
+                        <ButtonText>Limpar escolhas</ButtonText>
+                    </Button>
+              
+                {/* <View>
                     <Text>Suas escolhas:</Text>
-                    <Text>{frota + "\n" + insumo + "\n" + equipe}</Text>
-                </View>
+                    <Text> Fota Isumo Equipe</Text>
+                    <Text>{frota} {insumo} {equipe}</Text>
+                </View> */}
             </View>
         </View>
     )
